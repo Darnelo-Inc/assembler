@@ -15,8 +15,8 @@ end START
 Tutorial (многое совпадает с hello_SEGMENT_com)
 
 .8086
-.model tiny // объявили модель памяти со значением tiny
-.code // объявили единственный сегмент кода
+.model tiny ; объявили модель памяти со значением tiny
+.code ; объявили единственный сегмент кода
 ORG 100h
     START:
       mov ah, 9h
